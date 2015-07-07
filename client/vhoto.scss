@@ -1,0 +1,47 @@
+/* CSS declarations go here */
+
+@import '//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+
+.waiting {
+  
+  
+  img {
+    opacity: .5;
+    -webkit-filter: blur(3px);  
+  }
+
+  h1 {
+    position: fixed;
+    z-index: 99;
+    top: 30vh;
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+  }
+}
+
+.user {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50vh;
+  width: 20vh;  
+}
+
+.camera {
+  
+  .camera-preview {
+    opacity: .5;
+    width: 100%;
+  }
+  
+  .camera-actions {
+    .btn {
+      border-radius: 0;
+      color: #fff;
+      background-color: black;
+      border: #0D0D0D 1px solid;
+    }
+  }
+ 
+}
